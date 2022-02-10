@@ -1,0 +1,392 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1e2e2fd;
+
+    width: 100%;
+}
+.list ul{
+    text-align: center;
+    margin-top: 50px;
+     
+     
+}
+.list ul li {
+    display: inline;
+    margin:13px
+
+}
+
+.list ul li a{
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.container{
+    width:100%;
+    max-width: 89rem;
+    
+    
+}
+header{
+    height: 10vh;
+}
+.title h1{
+    margin: 15px ; 
+    margin-left: 20px;
+    padding: 3px;
+    padding-top: 12px;
+    letter-spacing: 2px;
+    
+    
+}
+.title img{
+    width: 60px;
+    margin-left: 1.6rem;
+    margin-top: 1.6rem;
+}
+.title{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.btn{
+     margin-left: 870px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ce8bf8;
+    padding: 18px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.profile img{
+    width:15%;
+    margin-top:100px;
+    margin-bottom: 90px;
+    margin-left: 99px;
+    border-radius: 700px;
+    
+    
+    
+    
+}
+.profile{
+    background-color:#1a8fc5;
+    margin-top: 120px;
+    padding: -0.4px;
+    border-radius: 60px;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    
+    
+}
+ .profile h1{
+      position: absolute;
+    margin-top: 160px;
+    margin-left: 400px;
+    letter-spacing: 2px;
+
+    
+ }
+ .profile h4{
+     margin-top: 105px;
+     margin-left: 402px;
+     position: absolute;
+     letter-spacing: 1px;
+        
+ }
+ .profile h3{
+     position: absolute;
+     margin-top: 200px;
+     margin-left: 400px;
+     letter-spacing: 2px;
+ }
+ .know{
+     position: absolute;
+     margin-top:270px ;
+     margin-left: 404px;
+     text-decoration: none;
+     background-color: royalblue;
+     border-radius: 50px;
+     padding: 16px;
+     letter-spacing: 1px;
+     color: #fff;
+ }
+  .about{
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #f1e2e2fd;
+      margin-top: 80px;
+      border-radius: 60px;
+      border-color: black;
+      padding: -0.4px;
+      margin-left: 80px;
+  }
+  .main img{
+      width:15%;
+      margin-top:100px;
+      margin-bottom: 90px;
+      margin-left: 1000px;
+      border-radius: 700px; ;
+  }
+  .about-text h1{
+       
+      margin-top:100px;
+      margin-left: 120px;
+      text-align: center;
+      letter-spacing: 3px;
+  }
+  .about-text h3{
+      position: absolute;
+      margin-top:100px ;
+      margin-left:170px ;
+      letter-spacing: 3px;
+
+  }
+  .about-text p{
+      position: absolute;
+      margin-top:170px;
+      margin-left: 160px;
+  }
+  hr{
+      width: 90px;
+      margin-left: 569px;
+      color: aqua;
+      
+  }
+  button{
+      margin-left: 170px;
+      background-color: royalblue;
+      padding: 19px;
+      letter-spacing: 1px;
+      border-radius: 80px;
+      color:#fff;
+      cursor: pointer;
+  }
+  .services{
+    
+    margin-left: 80px;
+    margin-top: 70px;
+  }
+  .text h1{
+      text-align: center;
+      letter-spacing: 3px;
+  }
+  .web{
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .dezine{
+    
+      margin-right: 800px;
+      padding:20px;
+      margin-top:90px;
+      border-radius: 600px;
+      padding-left: -30px;
+  }
+  .dezine h1{
+      margin-left: 159px;
+      margin-top: 50px;
+      letter-spacing: 3px;
+  }
+  .dezine p{
+      margin-top: 50px;
+      margin-left: 100px;
+      letter-spacing: 1px;
+
+  }
+  .dezine button{
+      margin-top: 40px;
+  }
+  .wordpress{
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      margin-top: 150px;
+      margin-left: 550px;
+      letter-spacing: 1px;
+  }
+  .wordpress h1{
+      letter-spacing: 3px;
+      margin-left: 222px;
+    
+  }
+  .wordpress p{
+      margin-top: 60px;
+      margin-left: 220px;
+  }
+  .wordpress button{
+      position: absolute;
+      margin-left: 255px;
+      margin-top: 348px;
+  }
+   
+  .line h1{
+      letter-spacing: 3px;
+      margin-left: 474px;
+  }
+  .line p{
+      
+      letter-spacing: 1px;
+      margin-left: 440px;
+      margin-top: 50px;
+      
+
+  }
+  .line button{
+      margin-left: 557px;
+      margin-top: 50px;
+  }
+  .skills{
+    background: #F0F8FF;
+    margin-left: 100px;
+    margin-top: 90px;
+  }
+  .content h1{
+      text-align: center;
+      letter-spacing: 3px;
+  }
+  .topic{
+      margin-left: 70px;
+  }
+  .text{
+      margin-left: 60px;
+      letter-spacing: 1px;
+  }
+  .text p{
+      margin-top: 40px;
+  }
+  .skills .content{
+    padding: 40px 0;
+  }
+  .skills .skills-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .skills-details .text{
+    width: 50%;
+  }
+  .skills-details p{
+    color: #0E2431;
+    text-align: justify;
+  }
+  skills .skills-details .experience{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+  }
+  .skills-details .experience .num{
+    color: #0E2431;
+    font-size: 80px;
+  }
+  .skills-details .experience .exp{
+    color: #0E2431;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 6px;
+  }
+  .skills-details .boxes{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .skills-details .box{
+    width: calc(100% / 2 - 20px);
+    margin: 20px 0;
+  }
+  .skills-details .boxes .topic{
+    font-size: 20px;
+    color: #4070f4;
+  }
+  .skills-details .boxes .per{
+    font-size: 60px;
+    color: #4070f4;
+  }
+  .hire h4{
+      text-align: center;
+      margin-top: 100px;
+      letter-spacing: 2px;
+  }
+  .hire button{
+      margin-left: 658px;
+      margin-top: 53px;
+  }
+  footer {
+    margin-top:  190px ;
+    background-color: #ce8bf8;
+    padding: 14px 15px 14px 15px;
+    color: #fff;
+}
+.look ul{
+    list-style: none;
+    font-size: 20px;
+    margin-block-end: 1em;
+}
+ .look ul li a{
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.look ul li{
+    margin: 30px;
+    
+}
+.look ul li a:hover{
+    color: #462404;
+     
+
+}
+.contacts{
+     margin-left: 300px;
+     padding-top: 80px;
+}
+ 
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.follow h4{
+    margin-left: 230px;
+}
+.social ul a{
+    margin: 10px;
+    color: #fff;
+}
+.contact h4{
+    margin-left: 140px;
+}
+.contact ul li {
+     list-style: none;
+    letter-spacing: 1px;
+    margin: 30px;
+}
+.contact ul{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+    
+  
+     
+@media screen {
+    
+}

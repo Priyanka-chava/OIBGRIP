@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&family=Poppins:ital,wght@0,200;0,500;1,500&family=Roboto+Condensed&display=swap');
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+font-family: "poppins" sans-serif;
+background-color: burlywood;
+}
+.logo h1{
+    margin: 15px ; 
+    margin-left: 20px;
+    padding: 1px;
+}
+
+img{
+    width: 100%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .logo img {
+    width: 60px;
+    margin-left: 1.6rem;
+    margin-top: 1.6rem;
+  }
+.links ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+    background-color:blue;
+    border-radius: 14px;
+    
+     
+    color: #fff;
+    padding: 7px;
+     
+}
+.links ul li a:hover{
+    background-color: skyblue;
+}
+.container{
+    width: 100%;
+    max-width: 80rem;
+     
+}
+.links ul {
+    float: right;
+    text-decoration: none;
+     font-size: 20px;
+    margin-block-end: 1em;
+}
+.links ul li{
+    display: inline;
+    margin: 10px 30px;    
+}
+nav{
+    
+    height: 6vh;
+}
+.text-box h1{
+    margin-top: 170px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.text-box h3{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.btn{
+    margin-left: 729px;
+    margin-top: 50px;
+    outline: none;
+     border: none;
+    font-size: 18px;
+    background: skyblue;
+    padding: 12px 13px;
+    cursor: pointer;
+    border-radius: 19px;
+}
+footer {
+    margin-top:  190px ;
+    background-color: skyblue;
+    padding: 14px 15px 14px 15px;
+}
+.list ul{
+    list-style: none;
+    font-size: 20px;
+    margin-block-end: 1em;
+}
+ .list ul li a{
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+}
+.list ul li{
+    margin: 30px;
+    
+}
+.list ul li a:hover{
+    color: #462404;
+}
+.contacts{
+     margin-left: 300px;
+     padding-top: 80px;
+}
+ 
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.follow h4{
+    margin-left: 230px;
+}
+.social ul a{
+    margin: 10px;
+}
+.contact h4{
+    margin-left: 140px;
+}
+.contact ul li {
+     list-style: none;
+    letter-spacing: 1px;
+    margin: 30px;
+    
+}
+.contact ul{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.degine h1{
+     text-align: center;
+     letter-spacing: 2px;
+     margin-top:60px;
+}
+.templates ul img{
+    width: 20%;
+    margin-left: 140px;
+    margin-top: 90px;
+    border-radius: 15px;
+    border-color: black;
+    box-shadow: burlywood;
+    border-width: 30px;
+    cursor: pointer;
+    
+    
+}
+ 
